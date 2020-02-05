@@ -7,9 +7,9 @@
 // @lc code=start
 class Solution {
 public:
-    bool isNumber(char const* s) {
+    bool isNumber(string s) {
         //字符串函数法（strtod()）
-        char * ptr;
+        /*char * ptr;
         strtod(s, &ptr);
 
         if(ptr == s){
@@ -21,7 +21,8 @@ public:
                 return false;
             }
         }
-        return true;
+        return true;*/
+        
     }
 };
 // @lc code=end
