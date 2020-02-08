@@ -43,7 +43,7 @@ public:
             level.clear();
             swap(cur, next);
         }
-        reverse(res.begin(), res.end());
+        reverse(res.begin(), res.end());//和普通的层次遍历多了一步操作
         return res;
     }
 };
