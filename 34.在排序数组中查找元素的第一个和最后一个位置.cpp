@@ -11,9 +11,9 @@ public:
        /* const int l = distance(nums.begin(), lower_bound(nums.begin(), nums.end(), target));
         const int r = distance(nums.begin(), --upper_bound(nums.begin(),nums.end(),target));
         if(nums[l] != target){
-            return vector<int> {-1, -1};
+            return vector<int> {-1 , -1};
         }else{
-            return vector<int> {l, r};
+            return vector<int> {l , r};
         }*/
         //前序倒序双扫描法
         vector<int> res = {-1, -1};

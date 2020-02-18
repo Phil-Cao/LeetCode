@@ -1,13 +1,13 @@
 /*
- * @lc app=leetcode.cn id=46 lang=cpp
+ * @lc app=leetcode.cn id=47 lang=cpp
  *
- * [46] 全排列
+ * [47] 全排列 II
  */
 
 // @lc code=start
 class Solution {
 public:
-    vector<vector<int>> permute(vector<int>& nums) {
+    vector<vector<int>> permuteUnique(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         vector<vector<int>> res;
         do{

@@ -16,7 +16,7 @@ private:
         while(p > -1 && nums[p] >= nums[p+1]) --p;
 
         if(p == -1){
-            reverse(&nums[begin], &nums[end]);
+            reverse(&nums[begin], &nums[end]);//321的下一个是123
             return false;
         }
 
